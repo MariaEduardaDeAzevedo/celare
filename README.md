@@ -31,6 +31,11 @@ from celare import gitignore
 
 5. To update a saved token or add a new one, just repeat the step 3. if you only need to run the code, don't worry, you don't need to pass the token arguments every time you run, only when necessary
 
+6. To read the tokens file use the read_tokens() function, this will return a dictionary with all the tokens saved before
+```
+tokens = read_tokens()
+```
+
 ## How to contribute?
 
 1. Clone this repository to make modifications 
@@ -38,7 +43,7 @@ Using HTTPS
 ```
 git clone https://github.com/MariaEduardaDeAzevedo/celare.git
 ```
-or usign GitHub CLI
+or using GitHub CLI
 ```
 gh repo clone MariaEduardaDeAzevedo/celare
 ```
