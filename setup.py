@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='celare',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/MariaEduardaDeAzevedo/celare',
     license='MIT License',
     author='Maria Eduarda de Azevedo',
@@ -16,5 +16,5 @@ setup(
     keywords=['token', 'hidden', 'api', 'keys'],
     description=u'Package to write and hide tokens, passwords, secret keys, without having to put them in the code',
     packages=['celare'],
-    install_requires=['sys', 'os', 'json'],
+    install_requires=[],
 )
