@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='celare',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/MariaEduardaDeAzevedo/celare',
     license='MIT License',
     author='Maria Eduarda de Azevedo',
